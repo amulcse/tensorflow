@@ -20,7 +20,6 @@ model.fit(celsius_q, fahrenheit_a, epochs=500, verbose=False)
 print("Finished training the model")
 
 print(model.predict([100.0]))
-
 print("Model predicts that 100 degrees Celsius is: {} degrees Fahrenheit".format(model.predict([100.0])))
 print("These are the l0 variables: {}".format(l0.get_weights()))
 print("These are the l1 variables: {}".format(l1.get_weights()))
